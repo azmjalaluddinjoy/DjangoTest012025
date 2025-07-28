@@ -6,7 +6,7 @@ def machine(request):
     return HttpResponse('Welcome to Machine Django from Joy')
 
 def deep_learning(request):
-    return HttpResponse('Welcome to Deep Learning')
+    return HttpResponse('We have full Deep Learning course')
 
 def about_us(request):
     return HttpResponse('About Us')
