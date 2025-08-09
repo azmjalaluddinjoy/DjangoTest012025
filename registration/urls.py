@@ -7,8 +7,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.machine),
     path('wlcm/',views.machine),
-    path('dl/',views.deep_learning),
-    path('about/',views.about_us),
+    # path('dl/',views.deep_learning),
+    # path('about/',views.about_us),
     
 ]
    

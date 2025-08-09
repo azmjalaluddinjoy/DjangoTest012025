@@ -3,10 +3,12 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    return HttpResponse('')
+    return render(request,'registration.html')
 
-def deep_learning(request):
-    return HttpResponse('We have full Deep Learning course')
+#     return HttpResponse('')
 
-def about_us(request):
-    return HttpResponse('About Us')
+# def deep_learning(request):
+#     return HttpResponse('We have full Deep Learning course')
+
+# def about_us(request):
+#     return HttpResponse('About Us')
