@@ -3,7 +3,16 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    return render(request,'registration.html')
+    return render(request,'registration/registration.html')
+def random(request):
+    return render(request,'registration/random_forest.html')
+def k_nearest(request):
+    return render(request,'registration/knn.html')
+def dt(request):
+    return render(request,'registration/dt.html')
+
+
+
 
 #     return HttpResponse('')
 
