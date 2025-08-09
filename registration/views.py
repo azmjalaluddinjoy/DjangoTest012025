@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    return HttpResponse('<h1>Welcome to Machine Django from Joy</h1>')
+    return HttpResponse('')
 
 def deep_learning(request):
     return HttpResponse('We have full Deep Learning course')
