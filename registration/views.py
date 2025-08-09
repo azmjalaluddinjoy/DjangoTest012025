@@ -3,7 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    return render(request,'registration/registration.html')
+    offering = {'what' : 'Registration'}
+    return render(request,'registration/registration.html', context=offering)
 def random(request):
     return render(request,'registration/random_forest.html')
 def k_nearest(request):
