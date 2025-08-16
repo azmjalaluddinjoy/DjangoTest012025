@@ -5,8 +5,20 @@
 </head>
 <body>
 <h1>Welcome to Machine Learning Django from Joy</h1>
-<h1>My First Machine Learning App by the name of {{what}} Title</h1>
+{% comment %} <h1>My First Machine Learning App by the name of {{what}} Title</h1> {% endcomment %}
+<h1>We are offering {{c}}. There have more than {{tl}} available {{st}} seats. Finally needed for course complete time {{cd}}</h1>
+<h2>{{c|upper}}</h2>
+<h2>{{c|lower}}</h2>
+<h2>{{c|capfirst}}</h2>
+<h2>{{c|length}}</h2>
 <p>Register Your Paragraph.</p>
+{% if st == 40 %}
+<h1>This is if part</h1>
+{% elif st == 20 %}
+<h2>This is elif part</h2>
+{% else %}
+<h3>This is else part</h3>
+{% endif %}
 
 </body>
 </html>

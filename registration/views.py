@@ -3,7 +3,11 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    offering = {'what' : 'Registration'}
+    course = 'machine learning'
+    Tclass = 21
+    seat = 20
+    course_duration = '2.5 months'
+    offering = {'c' : course,'tl' : Tclass, 'st' : seat, 'cd': course_duration}
     return render(request,'registration/registration.html', context=offering)
 def random(request):
     return render(request,'registration/random_forest.html')
